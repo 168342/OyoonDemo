@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A85D854C2486AC0300D61B11 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85D854B2486AC0300D61B11 /* AppDelegate.swift */; };
+		A85D854E2486AC0300D61B11 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85D854D2486AC0300D61B11 /* SceneDelegate.swift */; };
+		A85D85502486AC0300D61B11 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85D854F2486AC0300D61B11 /* ViewController.swift */; };
+		A85D85532486AC0300D61B11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A85D85512486AC0300D61B11 /* Main.storyboard */; };
+		A85D85552486AC0400D61B11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A85D85542486AC0400D61B11 /* Assets.xcassets */; };
+		A85D85582486AC0400D61B11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A85D85562486AC0400D61B11 /* LaunchScreen.storyboard */; };
+		F4237D74A47A92B049C1FAD1 /* Pods_OyoonDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0681C74BB62B3E30C6A79A8C /* Pods_OyoonDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0681C74BB62B3E30C6A79A8C /* Pods_OyoonDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OyoonDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		53B98868901BFF6C89215AF2 /* Pods-OyoonDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OyoonDemo.release.xcconfig"; path = "Target Support Files/Pods-OyoonDemo/Pods-OyoonDemo.release.xcconfig"; sourceTree = "<group>"; };
+		A85D85482486AC0300D61B11 /* OyoonDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OyoonDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A85D854B2486AC0300D61B11 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A85D854D2486AC0300D61B11 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A85D854F2486AC0300D61B11 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A85D85522486AC0300D61B11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A85D85542486AC0400D61B11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A85D85572486AC0400D61B11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A85D85592486AC0400D61B11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3A1E9D59DA888D509A177D9 /* Pods-OyoonDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OyoonDemo.debug.xcconfig"; path = "Target Support Files/Pods-OyoonDemo/Pods-OyoonDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A85D85452486AC0300D61B11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4237D74A47A92B049C1FAD1 /* Pods_OyoonDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A85D853F2486AC0300D61B11 = {
+			isa = PBXGroup;
+			children = (
+				A85D854A2486AC0300D61B11 /* OyoonDemo */,
+				A85D85492486AC0300D61B11 /* Products */,
+				BAEE34A05E21E38486DA36D2 /* Pods */,
+				CFBCF0755428F0AAA177CA54 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A85D85492486AC0300D61B11 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A85D85482486AC0300D61B11 /* OyoonDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A85D854A2486AC0300D61B11 /* OyoonDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A85D854B2486AC0300D61B11 /* AppDelegate.swift */,
+				A85D854D2486AC0300D61B11 /* SceneDelegate.swift */,
+				A85D854F2486AC0300D61B11 /* ViewController.swift */,
+				A85D85512486AC0300D61B11 /* Main.storyboard */,
+				A85D85542486AC0400D61B11 /* Assets.xcassets */,
+				A85D85562486AC0400D61B11 /* LaunchScreen.storyboard */,
+				A85D85592486AC0400D61B11 /* Info.plist */,
+			);
+			path = OyoonDemo;
+			sourceTree = "<group>";
+		};
+		BAEE34A05E21E38486DA36D2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D3A1E9D59DA888D509A177D9 /* Pods-OyoonDemo.debug.xcconfig */,
+				53B98868901BFF6C89215AF2 /* Pods-OyoonDemo.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CFBCF0755428F0AAA177CA54 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0681C74BB62B3E30C6A79A8C /* Pods_OyoonDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A85D85472486AC0300D61B11 /* OyoonDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A85D855C2486AC0400D61B11 /* Build configuration list for PBXNativeTarget "OyoonDemo" */;
+			buildPhases = (
+				D38F5031BCD17553D1D4A1DD /* [CP] Check Pods Manifest.lock */,
+				A85D85442486AC0300D61B11 /* Sources */,
+				A85D85452486AC0300D61B11 /* Frameworks */,
+				A85D85462486AC0300D61B11 /* Resources */,
+				233E3BA8AA8F7411C9D2F769 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OyoonDemo;
+			productName = OyoonDemo;
+			productReference = A85D85482486AC0300D61B11 /* OyoonDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A85D85402486AC0300D61B11 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Shaybaz Sayyed";
+				TargetAttributes = {
+					A85D85472486AC0300D61B11 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = A85D85432486AC0300D61B11 /* Build configuration list for PBXProject "OyoonDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A85D853F2486AC0300D61B11;
+			productRefGroup = A85D85492486AC0300D61B11 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A85D85472486AC0300D61B11 /* OyoonDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A85D85462486AC0300D61B11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A85D85582486AC0400D61B11 /* LaunchScreen.storyboard in Resources */,
+				A85D85552486AC0400D61B11 /* Assets.xcassets in Resources */,
+				A85D85532486AC0300D61B11 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		233E3BA8AA8F7411C9D2F769 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OyoonDemo/Pods-OyoonDemo-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OyoonDemo/Pods-OyoonDemo-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OyoonDemo/Pods-OyoonDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D38F5031BCD17553D1D4A1DD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OyoonDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A85D85442486AC0300D61B11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A85D85502486AC0300D61B11 /* ViewController.swift in Sources */,
+				A85D854C2486AC0300D61B11 /* AppDelegate.swift in Sources */,
+				A85D854E2486AC0300D61B11 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A85D85512486AC0300D61B11 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A85D85522486AC0300D61B11 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A85D85562486AC0400D61B11 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A85D85572486AC0400D61B11 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A85D855A2486AC0400D61B11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A85D855B2486AC0400D61B11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A85D855D2486AC0400D61B11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3A1E9D59DA888D509A177D9 /* Pods-OyoonDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C2G27U66CF;
+				INFOPLIST_FILE = OyoonDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.OyoonDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A85D855E2486AC0400D61B11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53B98868901BFF6C89215AF2 /* Pods-OyoonDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C2G27U66CF;
+				INFOPLIST_FILE = OyoonDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.OyoonDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A85D85432486AC0300D61B11 /* Build configuration list for PBXProject "OyoonDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A85D855A2486AC0400D61B11 /* Debug */,
+				A85D855B2486AC0400D61B11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A85D855C2486AC0400D61B11 /* Build configuration list for PBXNativeTarget "OyoonDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A85D855D2486AC0400D61B11 /* Debug */,
+				A85D855E2486AC0400D61B11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A85D85402486AC0300D61B11 /* Project object */;
+}
