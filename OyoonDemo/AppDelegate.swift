@@ -18,6 +18,8 @@ var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        MSDistribute.disableAutomaticCheckForUpdate()
+        MSDistribute.checkForUpdate()
         MSDistribute.setDelegate(self);
         MSDistribute.notify(MSUpdateAction.update);
         MSDistribute.notify(MSUpdateAction.postpone);
