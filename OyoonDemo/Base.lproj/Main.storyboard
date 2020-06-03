@@ -20,6 +20,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Click"/>
+                                <connections>
+                                    <segue destination="ADK-PG-Mb0" kind="show" id="bhq-kY-rcU"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -29,6 +32,22 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="139" y="88"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="6Vb-5p-o6U">
+            <objects>
+                <viewController id="ADK-PG-Mb0" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3Nc-wD-Jip">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="3Ky-Y0-vWP"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Cbb-ZF-9by"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KAw-uZ-HTI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="907" y="82"/>
         </scene>
     </scenes>
 </document>
