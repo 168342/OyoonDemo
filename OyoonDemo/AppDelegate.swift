@@ -18,14 +18,13 @@ var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        MSAppCenter.start("ef2a3a8c-2a5e-4df1-b925-55b6cd04c9c5", withServices: [MSDistribute.self])
         MSDistribute.disableAutomaticCheckForUpdate()
         MSDistribute.checkForUpdate()
         MSDistribute.setDelegate(self);
         MSDistribute.notify(MSUpdateAction.update);
         MSDistribute.notify(MSUpdateAction.postpone);
         MSDistribute.setEnabled(true)
-
-        MSAppCenter.start("ef2a3a8c-2a5e-4df1-b925-55b6cd04c9c5", withServices: [MSDistribute.self])
         MSAppCenter.start("ef2a3a8c-2a5e-4df1-b925-55b6cd04c9c5", withServices:[MSAnalytics.self,MSCrashes.self])
         return true
     }
